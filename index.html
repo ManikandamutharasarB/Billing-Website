@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Simple Billing</title>
+		<link rel="stylesheet" href="mystyle.css">
+	</head>
+	<body>
+		<div class="title">
+  			<a class="active" href="index.html">Billing</a>
+  			<a href="products.html">Products</a>
+  			<a href="customers.html">Customers</a>
+		</div>	
+		<div class="itemSearch"><br>
+			<input type="text" class="itemSearchHover" placeholder="Customer Id" name="customerId">
+			<input type="text" class="itemSearchHover" placeholder="Customer Name" name="customerName">
+			<input type="text" class="itemSearchHover" placeholder="Order Id" name="orderId">
+			<input type="text" class="itemSearchHover" placeholder="Search..." name="search">
+		</div>
+
+		<form name="SimpleBilling" class="simpleBilling" method="post">
+						<br>
+					
+						<input type="text" class="textInput" name="productCode" placeholder="Product Code">  
+						<br>
+						<br>
+						
+						<input type="text" class="textInput" name="productName" placeholder="Product Name">  
+						<br>
+						<br>
+						
+						<input type="text" class="textInput" name="productQuantity" placeholder="Product Quantity">  
+						<br>
+						<br>	
+						<input type="text" class="textInput" name="price" placeholder="Price">  
+						<br>
+						<br>
+						
+						<input type="text" class="textInput" name="gst" placeholder="GST">  
+						<br>
+						<br>
+						
+						<input type="text" class="textInput" name="discount" placeholder="Discount">
+						<br>
+						<br>
+						
+						<input type="text" class="textInput" name="total" placeholder="Total">  
+						<br>
+						<br>
+			
+			<div>
+				<div class="billing-button-row">  
+      				<input type="submit" class="clickButton" name="save" value = "Save"> 
+      				<input type="submit" class="clickButton" name="edit" value = "Edit"> 
+      				<input type="submit" class="clickButton" name="update" value = "Update"> 
+      				<input type="submit" class="clickButton" name="delete" value = "Delete">   
+    			</div>
+			</div>
+			  
+		</form>
+	</body>
+</html>
